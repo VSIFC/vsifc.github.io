@@ -1,0 +1,42 @@
+body{
+    background-color: slategray;
+    margin:0;
+  }
+  
+  h1{
+    display: flex;
+    justify-content: center;
+    width: 50em;
+    height: 3.5em;
+    background-color: darkslategray;
+    text-align: justify;
+    font-family: arial;
+    margin-top : 0;
+    margin : auto;
+  }
+  
+  
+  #navbar{
+    background-color: darkcyan; 
+    width  : 100em;
+    height  : 1.7em;
+    margin-top : 0;
+  }
+  
+  #navbar ul{
+    margin-top : 0;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #navbar li{
+    font-size : 20px;
+    margin-right : 40px;
+    display:inline;
+  }
+  
+  #mainfooter{
+    font-family: arial;
+  }
