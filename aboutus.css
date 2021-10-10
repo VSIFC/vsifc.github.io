@@ -1,18 +1,14 @@
 body{
-  background-color: #37323E;
+  background-color: #313131;
   margin:0;
 }
   
-h1{
-  display: flex;
-  justify-content: center;
-  width: 50em;
-  height: 3.5em;
-  background-color: darkslategray;
-  text-align: justify;
-  font-family: arial;
-  margin-top : 0;
-  margin : auto;
+
+#logo{
+  max-width: 3%;  
+  float:left;
+  height: auto;  
+  margin:0;
 }
 
 h3{
@@ -28,6 +24,7 @@ h3{
   overflow: auto;
 }
 
+
 .navbar a {
   float: left;
   font-family :Arial, Helvetica, sans-serif;
@@ -40,6 +37,7 @@ h3{
 
 .navbar a:hover {
   background-color: #05A8AA;
+  color : black;  
 }
 
 .active {
@@ -52,13 +50,49 @@ h3{
     display: block;
   }
 }
-  
-#mainfooter{
-  font-family: arial;
+
+#leftpage{
+  width : 400px;
+  height : 1000px;
+  position : absolute;
+  background-color : #1B1B1B;
 }
 
-#logo{
-  max-width: 3%;  
-  float:left;
-  height: auto;  
+#leftpage h2{
+  color : white;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top : 10px;
+  display: flex;
+  margin : 0;
+  justify-content: center;
+}
+
+#leftpage img {
+  height : 216px;
+  width : 384px;
+}
+
+#mainstuff{
+  margin-top : 0;
+  position : absolute;
+  margin-left : 400px;
+  width : 1462px;
+  height : 1000px;
+  background-color: #37323E;
+}
+#mainstuff h1{
+  font-family : Arial, Helvetica, sans-serif;
+  color : white;
+  font-size: 100px;
+  margin-left : 20px;
+  margin-top : 10px;
+}
+
+#mainstuff p{
+  font-family : Arial, Helvetica, sans-serif;
+  color : white;
+  font-size: 30px;
+  margin-left : 20px;
+  margin-top : 00px;
 }
