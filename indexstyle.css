@@ -139,7 +139,7 @@ h3{
   height : 750px;
   text-align : justify;
   width : 750px;
-  color : orangered;
+  color : orange;
   position : absolute;
   right : 90px;
 }
@@ -149,7 +149,7 @@ h3{
 }
 #programmingtext h3{
   font-size : 75px;
-  color : orangered;
+  color : orange;
 }
 
 #designtext {
