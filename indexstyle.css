@@ -234,7 +234,7 @@ h3{
   font-size: 17px;
   border: none;
   outline: none;
-  color: white;
+  color: #05A8AA;
   font-family: Arial, Helvetica, sans-serif;
   padding: 12px ;
   background-color: inherit;
@@ -258,7 +258,7 @@ h3{
 .dropdown-content a {
   float: none;
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
