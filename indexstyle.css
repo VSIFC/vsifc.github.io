@@ -244,6 +244,7 @@ h3{
 
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #05A8AA;
+  color : white;
 }
 
 .dropdown-content {
